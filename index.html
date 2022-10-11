@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+    <script src="js/dh.js"></script>
+    <script src="js/index.js"></script>
+   <title>Document</title>
+</head>
+<body>
+    <div class="hd">
+    <div class="head">
+        <div class="head_left">
+            <a href="#">亲，请登录</a>
+            <a href="#">免费注册</a>
+            <a href="#">手机逛淘宝</a>
+        </div>
+        <div class="head_right">
+            <a href="#">淘宝网首页</a>
+            <a href="#">我的淘宝<span class="glyphicon glyphicon-chevron-down"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-shopping-cart" id="gwc"></span>购物车<span class="glyphicon glyphicon-chevron-down"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-heart-empty"></span>收藏夹<span class="glyphicon glyphicon-chevron-down"></span></a>
+            <a href="#">商品分类</a>
+            <a href="#">卖家中心<span class="glyphicon glyphicon-chevron-down"></span></a>
+            <a href="#">联系客服</a>
+            <a href="#">网站导航</a>
+        </div>
+    </div>
+    <!-- 头部模块结束 -->
+    <div class="tp">
+        <div class="w">
+            <img src="img/1616702408152-1200-90.png" alt="">
+            <button id="x"><span class="glyphicon glyphicon-remove"></span></button>
+        </div>
+    </div>
+</div>
+<script>
+    window.addEventListener('load',function(){
+        var tp=document.querySelector('.tp');
+        var x=document.querySelector('#x');
+        x.addEventListener('click',function(){
+            tp.style.display='none';
+        })
+    })
+</script>
+<!-- 图片模块结束 -->
+<div class="logo w">
+<img src="img/1572809375526-200-76.png" alt="">
+<div class="py">
+
+    <div class="one">
+        <input type="text" value="联想拯救者">
+        <button>搜索</button>
+    </div>
+    <div class="two">
+        <a href="#">一淘限时抢</a>
+        <a href="#">女包</a>
+        <a href="#">卫衣</a>
+        <a href="#">洗衣液</a>
+        <a href="#">oppo</a>
+        <a href="#">男手表</a>
+        <a href="#">零食</a>
+        <a href="#">连衣裙</a>
+        <a href="#">耐克</a>
+        <a href="#">优衣库</a>
+        <a href="#">防晒霜</a>
+        
+    </div>
+</div>
+<div class="qx"></div>
+</div>
+<!-- LOGO模块结束 -->
+<div class="main">
+    <div class="w">
+        <li><a href="#">每日爆品一元起</a>
+           <div class="my">
+               <div class="my_one">
+                   <span class="glyphicon glyphicon-shopping-cart"></span>
+                 母婴
+                   
+               </div>
+               <div class="my_two">
+                  <p> <a href="#">内裤</a>
+                   <a href="#">儿童口罩</a>
+                   <a href="#">笔袋</a>
+                   <a href="#">奶粉</a>
+                </p>
+                <p>
+                   <a href="#">孕妇裤</a>
+                   <a href="#">益生菌</a>
+                   <a href="#">奥特曼</a>
+                   <a href="#">餐椅</a>
+                </p>
+               </div>
+           </div>
+           <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              美食
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">咖啡</a>
+                <a href="#">零食礼包</a>
+                <a href="#">茶叶</a>
+                <a href="#">黑咖啡</a>
+             </p>
+             <p>
+                <a href="#">早餐</a>
+                <a href="#">牛肉干</a>
+                <a href="#">白酒</a>
+                <a href="#">鸡胸肉</a>
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              家居
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">洗脸巾</a>
+                <a href="#">四件套</a>
+                <a href="#">拖鞋女</a>
+                <a href="#">枕头</a>
+             </p>
+             <p>
+                <a href="#">书架</a>
+                <a href="#">电视柜</a>
+                <a href="#">收纳箱</a>
+                <a href="#">毛巾</a>
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-lock"></span>
+              箱包
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">托特包</a>
+                <a href="#">双肩背包</a>
+                <a href="#">电脑包</a>
+                
+             </p>
+             <p>
+                <a href="#">背包</a>
+                <a href="#">绯乐</a>
+                <a href="#">卡套</a>
+                <a href="#">腰包</a>
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="
+                glyphicon glyphicon-knight"></span>
+              女人
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">连衣裙冬</a>
+                <a href="#">凉鞋</a>
+                <a href="#">短裤</a>
+                <a href="#">半身裙</a>
+             </p>
+             <p>
+                <a href="#">夏连衣裙</a>
+                <a href="#">女鞋</a>
+                <a href="#">鞋子</a>
+                <a href="#">高跟鞋</a>
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-user"></span>
+              男人
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">男鞋</a>
+                <a href="#">潮男鞋</a>
+                <a href="#">短裤</a>
+                <a href="#">T恤</a>
+             </p>
+             <p>
+                <a href="#">牛仔裤</a>
+                <a href="#">电动车</a>
+                <a href="#">男短袖</a>
+                
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-camera"></span>
+             数码
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">手机</a>
+                <a href="#">冰箱</a>
+                <a href="#">耳机</a>
+                <a href="#">华为</a>
+             </p>
+             <p>
+                <a href="#">洗衣机</a>
+                <a href="#">空调</a>
+                <a href="#">键盘</a>
+                <a href="#">投影仪</a>
+             </p>
+            </div>
+        </div>
+        <div class="my">
+            <div class="my_one">
+                <span class="glyphicon glyphicon-sunglasses"></span>
+             美妆
+                
+            </div>
+            <div class="my_two">
+               <p> <a href="#">洗面奶</a>
+                <a href="#">香水</a>
+                <a href="#">沐浴露</a>
+                <a href="#">剃须刀</a>
+             </p>
+             <p>
+                <a href="#">身体乳</a>
+                <a href="#">电动牙刷</a>
+                <a href="#">吹风机</a>
+               
+             </p>
+            </div>
+        </div>
+        </li>
+        <li><a href="#">聚划算</a></li>
+        <li><a href="#">淘抢购</a></li>
+        <li><a href="#">天猫超市</a></li>
+        <li><a href="#">天猫国际官方直营</a></li>
+        
+
+    </div>
+    
+</div>
+<div class="zj w">
+    <div class="lbt">
+        <ul>
+            <li><a href="#"><img src="img/lbt.1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/lbt.2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/lbt.3.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/lbt.4.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/lbt.5.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/lbt.6.webp" alt=""></a></li>
+        </ul>
+        <span class="glyphicon glyphicon-menu-left" id="zuo"></span>
+        <span class="glyphicon glyphicon-menu-right" id="you"></span>
+        <ol>
+            
+        </ol>
+<!-- 轮播图模块结束 -->
+    </div>
+    <div class="cz">
+        <p>超值活动专区</p>
+        <p>每天十点更新</p>
+    </div>
+    <div class="xfx">
+        <a href="#"><img src="img/xfx.1.jpg" alt=""></a>
+        <a href="#"><img src="img/xfx.2.jpg" alt=""></a>
+    </div>
+</div>
+<!-- 新发现模块结束 -->
+<div class="cs">
+    <a href="#"><img src="img/cs.1.jpg" alt=""></a>
+    <a href="#"><img src="img/cs.2.jpg" alt=""></a>
+</div>
+<!-- 超市模块结束 -->
+<div class="wd">
+    <a href="#">
+        <div class="tb">
+            我的淘宝
+        </div>
+        <div class="tm">
+            <li>
+                <p><img src="img/tm.1.gif" alt=""></p>
+                <p><img src="img/tm.2.gif" alt=""></p>
+                <p><img src="img/tm.6.jpg" alt=""></p>
+                <p><img src="img/tm.4.gif" alt=""></p>
+            </li>
+            <li>
+                <p><img src="img/tm。5.gif" alt=""></p>
+                <p><img src="img/tm.6.jpg" alt=""></p>
+                <p><img src="img/tm.7.gif" alt=""></p>
+                <p><img src="img/tm.8.png" alt=""></p>
+            </li>
+        </div>
+    </a>
+    <a href="#">
+        <p><span>运动</span>鬼塚虎运动鞋</p>
+        <p><span>运动</span>鬼塚虎运动鞋</p> 
+        <p><span>运动</span>鬼塚虎运动鞋</p>
+         <p><span>运动</span>鬼塚虎运动鞋</p>
+    </a>
+</div>
+<!-- 我的淘宝模块结束 -->
+<!-- 猜你喜欢模块开始 -->
+<div class="cnxh">
+ <div class="w">
+     <p>猜你喜欢</p>
+<div class="sp">
+    <li>
+        <img src="img/sp.1.webp" alt="">
+        <p>浪莎男士内裤男生四角...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥39.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>浪莎官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.2.webp" alt="">
+        <p>安踏C37+|软跑鞋男鞋...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>20元劵</span>
+        <p>￥339.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>安踏官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.3.webp" alt="">
+        <p>物生物水杯女夏季学生...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥29.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>物生物旗舰店</p>
+        <p>月销2000</p>
+    </li>
+    <li>
+        <img src="img/sp.4.webp" alt="">
+        <p>BDAC蒸汽眼罩睡眠...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>14元劵</span>
+        <p>￥11.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>bdac旗舰店</p>
+        <p>月销6000</p>
+    </li>
+    <li>
+        <img src="img/sp.5.webp" alt="">
+        <p>左颜右色男士素颜霜遮...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥69.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>左颜右色旗舰店</p>
+        <p>月销3.00万</p>
+    </li>
+    
+</div>
+<div class="sp">
+    <li>
+        <img src="img/sp.1.webp" alt="">
+        <p>浪莎男士内裤男生四角...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥39.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>浪莎官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.2.webp" alt="">
+        <p>安踏C37+|软跑鞋男鞋...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>20元劵</span>
+        <p>￥339.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>安踏官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.3.webp" alt="">
+        <p>物生物水杯女夏季学生...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥29.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>物生物旗舰店</p>
+        <p>月销2000</p>
+    </li>
+    <li>
+        <img src="img/sp.4.webp" alt="">
+        <p>BDAC蒸汽眼罩睡眠...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>14元劵</span>
+        <p>￥11.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>bdac旗舰店</p>
+        <p>月销6000</p>
+    </li>
+    <li>
+        <img src="img/sp.5.webp" alt="">
+        <p>左颜右色男士素颜霜遮...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥69.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>左颜右色旗舰店</p>
+        <p>月销3.00万</p>
+    </li>
+    
+</div>
+<div class="sp">
+    <li>
+        <img src="img/sp.1.webp" alt="">
+        <p>浪莎男士内裤男生四角...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥39.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>浪莎官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.2.webp" alt="">
+        <p>安踏C37+|软跑鞋男鞋...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>20元劵</span>
+        <p>￥339.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>安踏官方旗舰店</p>
+        <p>月销8000</p>
+    </li>
+    <li>
+        <img src="img/sp.3.webp" alt="">
+        <p>物生物水杯女夏季学生...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥29.00</p>
+        <span class="glyphicon glyphicon-grain"></span><p>物生物旗舰店</p>
+        <p>月销2000</p>
+    </li>
+    <li>
+        <img src="img/sp.4.webp" alt="">
+        <p>BDAC蒸汽眼罩睡眠...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>14元劵</span>
+        <p>￥11.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>bdac旗舰店</p>
+        <p>月销6000</p>
+    </li>
+    <li>
+        <img src="img/sp.5.webp" alt="">
+        <p>左颜右色男士素颜霜遮...</p>
+        <p><img src="img/tm.9.png" alt=""></span></p>
+        <span>10元劵</span>
+        <p>￥69.90</p>
+        <span class="glyphicon glyphicon-grain"></span><p>左颜右色旗舰店</p>
+        <p>月销3.00万</p>
+    </li>
+    
+</div>
+
+
+
+    </div>
+</div>
+</body>
+</html>
